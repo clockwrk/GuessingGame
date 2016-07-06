@@ -1,0 +1,27 @@
+label, input {
+    display: block;
+    width: 250;
+}
+label {
+    font-weight: bold;
+    margin-bottom:10px;
+}
+input {
+    width: 100px;
+    margin-bottom:25px;
+}
+
+input[type=submit]{
+    width:auto;
+    font-size:30px
+    margin: 0 10px 0 10px;
+    display: inline;
+}
+input[type=text]{
+    border: 3px solid #123456;
+    font-size: 24px;
+    padding: 7px;
+}
+body {
+  background-color: green;
+}
