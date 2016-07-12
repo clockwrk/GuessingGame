@@ -3,16 +3,19 @@
     <head>
         <title>Guessing Game</title>
 		<link rel='stylesheet' type='text/css' href='style.css'/>
+    <script src="jquery-3.0.0.js"></script>
+    <script src="guessingGame.js"></script>
 	</head>
 	<body>
     		<div>
         <form>
           <label for="guess-field">Enter your guess here!</label>
-          <input type = "text" id="guess-field">
-          <input type = "submit" value = "Enter">
-          <input type = "submit" value = "Change the mystery number!">
-
+          <input id ="PlayerGuess" type = "text">
+          <input id ="Button1" type = "submit" value = "Enter">
+          <input id ="Button2" type = "submit" value = "Want a hint?">
+          <input id ="Button3" type = "submit" value = "Reset">
         </form>
+        
       </div>
 
 	</body>
